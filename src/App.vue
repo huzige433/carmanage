@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <index msg="账号后台"></index>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import index from './components/index.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    index
   }
 }
 </script>
